@@ -1,8 +1,6 @@
 /* CSS stylesheet for ntbarba-resume.html */
 /* divs: experience, title-location, title, location, position-time, position, time */
 
-experience {
-    h2 {
-        color:red;
-    }
+experience.h2 {
+    color:red;
 }
