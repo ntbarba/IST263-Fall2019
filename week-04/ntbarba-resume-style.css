@@ -1,6 +1,98 @@
 /* CSS stylesheet for ntbarba-resume.html */
-/* divs: experience, title-location, title, location, position-time, position, time */
+/* Github HTML URL: https://ntbarba.github.io/IST263-Fall2019/week-03/ntbarba-resume.html  */
 
-experience.h3 {
-    color:red;
+body {
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: darkblue;
+    line-height: 0.6px;
+}
+
+table>thead {
+    text-align: center;
+    color: darkblue;
+}
+
+table>tbody {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+header>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+}
+
+p>a {
+    color: gray;
+}
+
+p>a:visited {
+    color: gray;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkblue;
+    font-size: 16px;
+    text-align: left;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 24px;
+    background-color: darkblue;
+    padding: 15px 15px;
+    font-variant: small-caps;
+    letter-spacing: 0.25em
+}
+
+.location {
+    float: right;
+    font-size: 16px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.time {
+    float: right;
+    line-height: 0.6px;
+}
+
+.position {
+    font-style: italic;
+    line-height: 0.6px;
+}
+
+.experience {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 2px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
 }
