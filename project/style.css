@@ -1,50 +1,14 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-
-li {
-    float: left;
-    line-height: 50px;
-}
-
-li a {
-    display: block;
-    font-size: 1.25em;
+.site-header>nav>a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    text-align: left;
-    padding: 14px 16px;
+    font-size: 20px;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    text-align: center;
     text-decoration: none;
+    color: darkblue;
+    vertical-align: middle;
 }
 
-li a:hover {
+.site-header>nav>a:hover {
     background-color: whitesmoke;
-}
-
-body {
-    background-color: whitesmoke;
-}
-
-#banner {
-    padding: 18em;
-    background-image: url("img/whitman-sign.JPG");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0em;
-}
-
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3em;
-    color: white;
-}
-
-.explore {
-    background-color: gray;
+    font-weight: bold;
 }
