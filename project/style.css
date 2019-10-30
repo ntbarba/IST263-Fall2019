@@ -54,7 +54,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: blue;
+    background-color: royalblue;
 }
 
 h2 {
@@ -67,4 +67,9 @@ h2 {
     height: auto;
     width: 50%;
     float: right;
+}
+
+p {
+    font-family: ;
+    font-size: 18px;
 }
