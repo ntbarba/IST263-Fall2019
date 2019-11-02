@@ -96,9 +96,16 @@ p>a {
 
 .over-image {
     color: white;
-    top: 45%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     text-align: center;
+}
+
+#about-me>img {
+    height: auto;
+    width: 15%;
+    float: left;
+    border-radius: 50%;
 }
