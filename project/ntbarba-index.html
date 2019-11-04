@@ -7,11 +7,11 @@
     <meta name="author" content="Nick Barba">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whitman's Web</title>
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header class="site-header">
         <nav>
             <a href="ntbarba-index.html"><img src="img/whitmans-web-logo.png" alt="whitmans web logo" style="width:15%; height:auto;"></a>
             <a href="ntbarba-index.html#about">About</a>
@@ -19,29 +19,37 @@
         </nav>
     </header>
     <main>
-        <article id="banner">
+        <section class="banner">
             <img src="img/whitman-sign.JPG" alt="Whitman School of Management building with flowers in front of the building">
-            <div id="explore">
+            <article class="explore">
                 <h1>Discover Whitman's Web of Connections</h1>
-                <a href="ntbarba-the-web.html" title="Explore the web">Explore</a>
-            </div>
-        </article>
-        <article id="about">
+                <a class="button" href="ntbarba-the-web.html" title="Explore the web">Explore</a>
+            </article>
+        </section>
+        <section id="about">
+            <img src="img/connection-web.png" alt="A stock image of a web of connected people">
             <h2>The 6 Degrees of Separation</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-        </article>
-        <article>
-            <h2>Whitman School of Management</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-        </article>
-        <article>
-            <h2>About Me</h2>
-            <img src="img/profile-me.jpg" alt="picture of Nick Barba">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-        </article>
+            <p>The six degrees of separation is the theory that every person on the planet is connected to any other person through a chain of no more than five intermediaries. First proposed in 1929 by Frigyes Karinthy in a short story called "Chains," the theory was tested and supported by Stanley Milgram in something he called the "<a href="https://en.wikipedia.org/wiki/Small-world_experiment" target="_blank">Small World Problem</a>."
+                <br/><br/>
+                In 2008, Microsoft validated the experiment by analyzing the minimum chain length required to connect 180 million different pairs of users with accounts. They found the average chain to be 6.6 hops. Since then, Facebook claims to have reduced 6.6 to 3.5 degrees through their vast and interconnected network.
+            </p>
+        </section>
+        <section id="whitman">
+            <img src="img/whitman.png" alt="image of the front entrance of the whitman school of management">
+            <article class="over-image">
+                <h2>Whitman School of Management</h2>
+            </article>
+                <p>Syracuse University's Martin J. Whitman School of Management offers undergraduate, MBA, MS, doctoral, executive education, and defense programs. Undergraduates at the school may major in Accounting, Entrepreneurship, Finance, Management, Marketing, Real Estate, Retail Management, and Supply Chain Management. Students study under the leadership of eceptional staff and faculty members, highly esteemed in the education community as world-class scholars and researchers.</p>
+        </section>
     </main>
 
     <footer>
+        <section id="about-me">
+                <h2>About Me</h2>
+                <img src="img/profile-me.jpg" alt="picture of Nick Barba">
+                <p>My name is Nick Barba and I am a senior undergraduate student at Whitman. I am studying Entrepreneurship and Finance and minoring in Information Management &amp; Technologies at the iSchool. I've spent my college experience focusing on the importance of relationship building your professional and personal life. I've applied this to my drive for entrepreneurship and am currently working on a way to reverse the trend of using social media to maintain our core relatioships. In that respect, I've created this website as a project for my Introduction to Front-End Web Development class as a means to visualize the relationships faculty have built in their time; and how they are all inter-connected.</p>
+        </section>
+        <br/>
         <p>All Rights Reserved. Copyright &copy; 2019</p>
     </footer>
 </body>
