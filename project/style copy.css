@@ -39,19 +39,22 @@ h1 {
     background-color: #191970;
     color: #ffffff;
   }
-  .bg-2 {
+
+.bg-2 {
     background-color: #474e5d;
     color: #ffffff;
-  }
-  .bg-3 {
+}
+
+.bg-3 {
     background-color: #ffffff;
     color: #555555;
-  }
+}
 
-  .container-fluid {
+.container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
-  }
+}
+
 /*.site-header>nav>a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
