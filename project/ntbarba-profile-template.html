@@ -8,49 +8,69 @@
     <meta name="author" content="Nick Barba">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name | Whitman's Web</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style copy.css">
 </head>
 
 <body>
     <header class="site-header">
-        <nav>
-            <a href="ntbarba-index.html"><img src="img/whitmans-web-logo.png" alt="whitmans web logo" style="width:15%; height:auto;"></a>
-            <a href="ntbarba-index.html#about">About</a>
-            <a href="ntbarba-the-web.html">The Web</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="ntbarba-index.html">
+                <img src="img/whitmans-web-logo.png" width="200" height="auto" class="d-inline-block align-top" alt="Logo that says Whitman Web">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ntbarba-index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ntbarba-the-web.html">The Web</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <article class="banner">
-                <img src="img/whitman-sign.JPG" alt="Whitman School of Management building with flowers in front of the building" style="height:28em">
-                <div class="banner-pic">
-                    <img src="img/downes-maureen.jpg" alt="headshot picture of Maureen Downes">
+        <section class="jumbotron" style="background-image: url('img/whitman-sign.JPG');">
+            <div class="container d-flex flex-row" id="jumbo-container">
+                <img src="img/downes-maureen.jpg" alt="headshot picture of Maureen Downes" style="height:100%; width:auto;">
+                <div>
+                    <h2 class="display-4">What led me to Whitman?</h2>
+                    <p class="quote">"After 30 years in pharmaceutical sales I was ready for a major career change. I began in the Electrical Engineering and Computer Science department in 2017 handling graduate applications and ultimately moved into recruitment at Whitman in 2018. The positive energy in the building and working with the student ambassador team are the reasons I enjoy it here so much!"</p>
                 </div>
-                <div class="banner-quote" style="float: right;">
-                    <h2>What led me to Whitman?</h2>
-                    <p id="quote">"After 30 years in pharmaceutical sales I was ready for a major career change. I began in the Electrical Engineering and Computer Science department in 2017 handling graduate applications and ultimately moved into recruitment at Whitman in 2018. The positive energy in the building and working with the student ambassador team are the reasons I enjoy it here so much!"</p>
-                </div>
-            </article>
+            </div>
         </section>
-        <section class="name-title">
+        <section class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
             <h1>Maureen Downes</h1>
             <p>Undergraduate Recruitment Coordinator</p>
-            <a class="button" href="https://whitman.syr.edu/directory/showInfo.aspx?nid=madownes" title="Go to SU Directory" target="_blank">View Directory Profile</a>
+            <a href="https://whitman.syr.edu/directory/showInfo.aspx?nid=madownes" target="_blank" title="Go to SU Directory" class="btn btn-primary">View Directory Profile</a>
         </section>
-        <section>
+        <section class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
             <h2>Connections in the web</h2>
-            <article class="profiles">
-                <div class="name-card">
-                    <a href="ntbarba-profile-template.html" title="View the profile"><img src="img/dubois-rachel.jpg" alt="Headshot of Rachel DuBois"></a>
-                        <p>Rachel DuBois</p>
+            <article class="d-flex flex-row flex-wrap mb-3">
+                <div class="card col-xs-12 col-sm-6 col-md-3 col-lg-2 card">
+                    <img src="img/dubois-rachel.jpg" class="card-img-top" alt="Headshot of Rachel DuBois">
+                    <div class="card-body">
+                        <h5 class="card-title">Rachel DuBois</h5>
+                        <a href="ntbarba-profile-dubois.html" class="btn btn-primary">View Profile</a>
+                    </div>
                 </div>
-                <div class="name-card">
-                    <a href="ntbarba-profile-template.html" title="View the profile"><img src="img/connors-dan.jpg" alt="Headshot of Dan Connors"></a>
-                        <p>Dan Connors</p>
+                <div class="card col-xs-12 col-sm-6 col-md-3 col-lg-2 card">
+                    <img src="img/connors-dan.jpg" class="card-img-top" alt="Headshot of Dan Connors">
+                    <div class="card-body">
+                        <h5 class="card-title">Dan Connors</h5>
+                        <a href="#" class="btn btn-primary">Profile Unavailable</a>
+                    </div>
                 </div>
-                <div class="name-card">
-                    <a href="ntbarba-profile-template.html" title="View the profile"><img src="img/howell-kerri.jpg" alt="Headshot of Kerri Howell"></a>
-                        <p>Kerri Howell</p>
+                <div class="card col-xs-12 col-sm-6 col-md-3 col-lg-2 card">
+                    <img src="img/howell-kerri.jpg" class="card-img-top" alt="Headshot of Kerri Howell">
+                    <div class="card-body">
+                        <h5 class="card-title">Kerri Howell</h5>
+                        <a href="#" class="btn btn-primary">Profile Unavailable</a>
+                    </div>
                 </div>
             </article>
         </section>
@@ -63,7 +83,30 @@
             </div>
         </aside>
     <footer class="foot">
-        <p>All Rights Reserved. Copyright &copy; 2019</p>
+        <section class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <h5 class="text-uppercase">About the Project</h5>
+                        <p>This website was made for Nick Barba's Introduction to Front-End Develoment class. If all faculty were included in the project, the website would provide great value to viewers. Because of the constraints of the class and Nick's time, the project was just limited to a handful of faculty and staff.</p>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">Site Map</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="ntbarba-index.html">Home</a></li>
+                            <li><a href="ntbarba-index.html#about">About</a></li>
+                            <li><a href="ntbarba-the-web.html">The Web</a></li>
+                        </ul>
+                    </div>    
+                    <div class="col-md-3 mb-md-0 mb-3">    
+                    </div>
+                </div>
+            </div>  
+            <div class="footer-copyright text-center py-3">
+                &copy; 2019 Copyright: Nick Barba
+            </div>
+        </section>
     </footer>
 </body>
 
