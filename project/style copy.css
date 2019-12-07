@@ -55,7 +55,7 @@ h1,h4{
     padding-bottom: 70px;
 }
 
-.card {
+.card-pad {
     margin: 2rem;
 }
 
@@ -66,4 +66,8 @@ h1,h4{
 
 .quote {
     font-size: medium;
+}
+
+.card {
+    border-color: white;
 }
