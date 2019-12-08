@@ -75,3 +75,7 @@ h1,h4{
 .quote {
     color: white;
 }
+
+.jumbotron {
+    height: 30rem;
+}
